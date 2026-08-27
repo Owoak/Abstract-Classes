@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="1. Zoo/1. Zoo.vcxproj" Id="e6f43186-0992-48db-bacd-c6016c543aa7" />
+</Solution>
