@@ -13,7 +13,7 @@ int main()
 	RenderEngine engine(sizeZoo);
 
 	engine.printZoo();
-	engine.move("cat", Directions::DOWN);
+	engine.move("cat", Directions::LEFT);
 	engine.move("cat", Directions::RIGHT);
 	engine.move("mouse", Directions::UP);
 	engine.printZoo();

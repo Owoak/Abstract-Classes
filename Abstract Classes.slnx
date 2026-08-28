@@ -3,5 +3,12 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="01. Filters/01. Filters.vcxproj" Id="6caff83e-8e9f-424b-b164-1bcf3058b5ed" />
+  <Project Path="02. IDs/02. IDs.vcxproj" Id="4ccd7cc6-eeda-402c-92d2-2f9081aef1ab" />
+  <Project Path="03. Files/03. Files.vcxproj" Id="5b2a1c17-dda1-4c6d-a739-0f5d4fcc7fed" />
+  <Project Path="04. Extractor/04. Extractor.vcxproj" Id="e70ff33a-dd7c-4c57-afac-d00b55881218" />
+  <Project Path="05. Tree/05. Tree.vcxproj" Id="aaa8dd00-7087-4e05-9b5d-4385a183d742" />
+  <Project Path="06. Explorer/06. Explorer.vcxproj" Id="a517e326-e9ec-40e9-9ee3-099abf5483c9" />
   <Project Path="1. Zoo/1. Zoo.vcxproj" Id="e6f43186-0992-48db-bacd-c6016c543aa7" />
+  <Project Path="demos/demos.vcxproj" Id="12b18385-4a59-4d91-b823-80ae47b9a54f" />
 </Solution>

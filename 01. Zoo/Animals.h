@@ -32,16 +32,22 @@ public:
 				StaringPos.first++;
 			}
 			break;
-		case Directions::LEFT:
-			if (StaringPos.second > 0) {
+		case Directions::LEFT: {
+			int movedPositins = 0;
+			while (StaringPos.second > 0 and movedPositins <= 2) {
 				StaringPos.second--;
+				movedPositins++;
 			}
 			break;
-		case Directions::RIGHT:
-			if (StaringPos.second < dimensions.second - 1) {
+		}
+		case Directions::RIGHT: {
+			int movedPositins = 0;
+			while (StaringPos.second < dimensions.second - 1 and movedPositins <= 2) {
 				StaringPos.second++;
+				movedPositins++;
 			}
 			break;
+		}
 		}
 		AnimalBox::hasMoved = true;
 	}

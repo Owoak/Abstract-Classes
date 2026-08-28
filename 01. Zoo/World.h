@@ -27,7 +27,7 @@ protected:
 	Mouse* mouse;
 	std::vector<std::vector<char>> worldMatrix;
 
-	World(size_t size) :Rows(size), Colls(size * 2), mouse(new Mouse(15, 15)), cat(new Cat(0, 0)), worldMatrix(Rows, std::vector<char>(Colls, ' ')) {}
+	World(size_t size) :Rows(size), Colls(size * 2), mouse(new Mouse(15, 15)), cat(new Cat(0, 1)), worldMatrix(Rows, std::vector<char>(Colls, ' ')) {}
 	void updateCurrentZoo() {
 		if (cat->hasMoved() or mouse->hasMoved()) {
 		}
